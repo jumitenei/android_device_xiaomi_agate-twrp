@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_agate.mk
+    $(LOCAL_DIR)/twrp_ares.mk
