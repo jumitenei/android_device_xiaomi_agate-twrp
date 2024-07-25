@@ -25,11 +25,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device specific configs
-$(call inherit-product, device/xiaomi/agate/device.mk)
+$(call inherit-product, device/xiaomi/ares/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := agate
-PRODUCT_NAME := twrp_agate
+PRODUCT_DEVICE := ares
+PRODUCT_NAME := twrp_ares
 PRODUCT_BRAND := Xiaomi	
-PRODUCT_MODEL := 21081111RG
+PRODUCT_MODEL := ares
 PRODUCT_MANUFACTURER := Xiaomi 
